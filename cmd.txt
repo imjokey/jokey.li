@@ -2,5 +2,5 @@ hugo new site jokey.li
 cd jokey.li
 git init
 git submodule add https://github.com/chipzoller/hugo-clarity.git themes/hugo-clarity
-echo "theme = 'hugo-clarity'" >> hugo.toml
+# echo "theme = 'hugo-clarity'" >> hugo.toml
 hugo server
