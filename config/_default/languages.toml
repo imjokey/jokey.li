@@ -1,11 +1,12 @@
-[en]
-  title = "Jokey"
-  LanguageName = "English"
-  weight = 1
-
 [zh]
   title = "Jokey" # just for the sake of showing this is possible
   LanguageName = "Chinese"
-  weight = 2
+  weight = 1
 
   # tip: assign the default language the lowest Weight
+
+
+[en]
+  title = "Jokey"
+  LanguageName = "English"
+  weight = 2
