@@ -53,4 +53,4 @@ other = "文章目录"
 other = "{{ .ReadingTime }} 分钟阅读"
 
 [series_posts]
-other = "Posts in this series"
+other = "此系列文章"

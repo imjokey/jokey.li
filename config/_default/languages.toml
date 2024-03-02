@@ -1,11 +1,11 @@
 [en]
-  title = "Clarity"
+  title = "Jokey"
   LanguageName = "English"
   weight = 1
 
-[pt]
-  title = "Claridade" # just for the sake of showing this is possible
-  LanguageName = "Português"
+[zh]
+  title = "Jokey" # just for the sake of showing this is possible
+  LanguageName = "Chinese"
   weight = 2
 
   # tip: assign the default language the lowest Weight

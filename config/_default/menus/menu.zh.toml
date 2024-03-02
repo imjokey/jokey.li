@@ -1,0 +1,83 @@
+[[main]]
+  name = "主页"
+  url = ""
+  weight = -110
+
+[[main]]
+  name = "云原生"
+  url = "post/cloud-native/"
+  weight = -109
+
+[[main]]
+  name = "网络技术"
+  url = "post/network/"
+  weight = -108
+
+[[main]]
+  name = "系统架构"
+  url = "post/arch/"
+  weight = -107
+
+[[main]]
+  name = "生活杂谈"
+  url = "post/life/"
+  weight = -106
+
+# Submenus are done this way: parent -> identifier
+#[[main]]
+#  name = "链接"
+#  identifier = "Links"
+#  weight = -106
+#[[main]]
+#  parent = "Links"
+#  name = "LinkedIn"
+#  url = "https://www.linkedin.com/"
+#[[main]]
+#  parent = "Links"
+#  name = "Twitter"
+#  url = "https://twitter.com/"
+
+
+
+#[[main]]
+#  name = "简历"
+#  url = "https://resume.jokey.li/"
+#  weight = -106
+
+# social menu links
+
+[[social]]
+  name = "Github"
+  type = "social"
+  weight = 1
+  url = "https://github.com/imjokey"
+[[social]]
+  name = "Twitter"
+  weight = 2
+  url = "https://twitter.com/jokey_li"
+#[[social]]
+#  name = "Facebook"
+#  weight = 3
+#  url = "https://facebook.com/jokeyli"
+[[social]]
+  name = "Linkedin"
+  weight = 4
+  url = "https://www.linkedin.com/in/jokeyli"
+[[social]]
+  name = "RSS"
+  weight = 5
+  url = "index.xml"
+
+# other supported social links
+# name = "youtube"
+# url = "https://www.youtube.com/#"
+# name = "facebook"
+# url = "https://facebook.com/#"
+# name = "instagram"
+# url = "https://instagram.com/#"
+# name = "stackoverflow"
+# url = "https://stackoverflow.com/#"
+# name = "gitlab"
+# url = "https://gitlab.com/#"
+# name = "discord"
+# url = "https://discord.gg/#"
