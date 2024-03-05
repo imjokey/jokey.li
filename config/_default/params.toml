@@ -107,7 +107,7 @@ utterances = true  # Run the utterances script in the single.html layout to load
 utterancesRepo = "imjokey/jokey.li" # Utterances is enabled when this param is set
 utterancesLabel = "✨^💬^✨" # The label needs to be manually added to your Github repository issues before configuring here
 utterancesTheme = "github-light" # Default: github-dark
-utterancesIssueTerm = "pathname" # Default: pathname
+utterancesIssueTerm = "title" # Default: pathname
 
 # Maximum number of recent posts. (default: 8)
 # numberOfRecentPosts = 8
