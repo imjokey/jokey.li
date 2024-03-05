@@ -2,7 +2,7 @@
 enableSearch = true
 
 # socials
-twitter = "@x_jokey"
+twitter = "@jokey_li"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
 introDescription = "Technologist, perpetual student, continual incremental improvement."
 introURL = "https://resume.jokey.li" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
@@ -103,11 +103,11 @@ languageMenuName = "🌐"
 # comments = false
 
 # Enable or disable Utterances (https://github.com/utterance/utterances) Github Issue-Based Commenting
-# utterances = true  # Run the utterances script in the single.html layout to load https://utteranc.es comments
-# utterancesRepo = "GHUsername/Repository.Name" # Utterances is enabled when this param is set
-# utterancesLabel = "blog comments ✨💬✨" # The label needs to be manually added to your Github repository issues before configuring here
-# utterancesTheme = "github-light" # Default: github-dark
-# utterancesIssueTerm = "pathname" # Default: pathname
+utterances = true  # Run the utterances script in the single.html layout to load https://utteranc.es comments
+utterancesRepo = "imjokey/jokey.li" # Utterances is enabled when this param is set
+utterancesLabel = "✨^💬^✨" # The label needs to be manually added to your Github repository issues before configuring here
+utterancesTheme = "github-light" # Default: github-dark
+utterancesIssueTerm = "pathname" # Default: pathname
 
 # Maximum number of recent posts. (default: 8)
 # numberOfRecentPosts = 8
