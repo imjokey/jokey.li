@@ -12,28 +12,28 @@ categories = [
     "Commit Verify",
     "GITHUB"
 ]
-series = ["Neteworks"]
+series = ["Networks"]
 thumbnail = "images/materials/elephent.jpeg"
 +++
 
-## Why I should have a commit signature verification
+## Why I should have a commit signature verification.
 
 If you  have a pull request to an external repo, it would show a "Unverified" status ,like blow:
 
 ![](/images/articles/2024-03-06-16-07-00-image.png) 
 
-## How cloud I do that fastly
+## How could I do that fast.
 
 The following instructions will help you config quickly to achive that.
 
-### Generate ed25519 type ssh keys
+### Generate ed25519 type ssh keys.
 
 ```
 ssh-keygen -t ed25519 -C "me@jokey.li"
 # You can use all prompt default options if you like.
 ```
 
-### Add keys to ssh-agent
+### Add keys to ssh-agent.
 
 ```bash
 # start ssh-gaent 
@@ -44,7 +44,7 @@ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 ssh-add ~/.ssh/id_ed25519 # or if you are in linux to use this command
 ```
 
-### Add github identify config to ssh config
+### Add github identify config to ssh config.
 
 ```bash
 vi ~/.ssh/config
@@ -56,7 +56,7 @@ Host github.com
 
 ### Add ssh `id_ed25519.pub` to github must be with **both** sign and **auth** types.
 
-Ref Github Docs: [Adding a new SSH key to your GitHub account - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+Ref Github Docs: [Adding a new SSH key to your GitHub account - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
 ### Setting git global config use a ssh gpgsign verify.
 
