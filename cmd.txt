@@ -5,6 +5,9 @@ git submodule add https://github.com/chipzoller/hugo-clarity.git themes/hugo-cla
 # echo "theme = 'hugo-clarity'" >> hugo.toml
 hugo server
 
+# update theme
+git submodule update --remote --merge
+
 # sign commit in mac
 1.Generate ssh type ed25519  keys
 ssh-keygen -t ed25519 -C "me@jokey.li"
