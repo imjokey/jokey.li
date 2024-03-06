@@ -4,3 +4,23 @@ git init
 git submodule add https://github.com/chipzoller/hugo-clarity.git themes/hugo-clarity
 # echo "theme = 'hugo-clarity'" >> hugo.toml
 hugo server
+
+# sign commit
+1.Generate ssh keys
+ssh-keygen -t ed25519 -C "me@jokey.li"
+
+# add keys to  ssh-agent
+eval "$(ssh-agent -s)"
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+
+vi ~/.ssh/config
+# add fllowing config
+Host github.com
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_ed25519
+2. add ssh id_ed25519.pub to github with sign commit type
+3. set git global config
+git config --global gpg.format ssh
+git config --global user.signingkey  ~/.ssh/id_ed25519.pub
+git config --global commit.gpgsign true 
+4. have a  test
