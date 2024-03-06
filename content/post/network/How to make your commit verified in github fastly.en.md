@@ -20,7 +20,7 @@ thumbnail = "images/materials/elephent.jpeg"
 
 If you  have a pull request to an external repo, it would show a "Unverified" status ,like blow:
 
-![](/Users/jokey/Library/Application%20Support/marktext/images/2024-03-06-16-07-00-image.png) 
+![](/images/articles/2024-03-06-16-07-00-image.png) 
 
 ## How cloud I do that fastly
 
@@ -76,7 +76,7 @@ Ref Github Docs: [Adding a new SSH key to your GitHub account - GitHub Docs](htt
 
 Login to github to check commit entries,  whether there is a "Verified" status . like below:
 
-![](/Users/jokey/Library/Application%20Support/marktext/images/2024-03-06-15-54-16-image.png)
+![](/images/articles//2024-03-06-15-54-16-image.png)
 
 Ref: 
 
