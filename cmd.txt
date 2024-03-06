@@ -5,8 +5,8 @@ git submodule add https://github.com/chipzoller/hugo-clarity.git themes/hugo-cla
 # echo "theme = 'hugo-clarity'" >> hugo.toml
 hugo server
 
-# sign commit
-1.Generate ssh keys
+# sign commit in mac
+1.Generate ssh type ed25519  keys
 ssh-keygen -t ed25519 -C "me@jokey.li"
 
 # add keys to  ssh-agent
@@ -18,9 +18,13 @@ vi ~/.ssh/config
 Host github.com
   AddKeysToAgent yes
   IdentityFile ~/.ssh/id_ed25519
-2. add ssh id_ed25519.pub to github with sign commit type
+
+2. add ssh id_ed25519.pub to github must be with both sign and auth types.
+
 3. set git global config
 git config --global gpg.format ssh
 git config --global user.signingkey  ~/.ssh/id_ed25519.pub
 git config --global commit.gpgsign true 
+
 4. have a  test
+git commit -am "update cmd"
